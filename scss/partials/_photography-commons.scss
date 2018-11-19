@@ -1,0 +1,113 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.photography {
+
+  &__title {
+    font-family: $font-stack-title;
+    font-weight: bold;
+    letter-spacing: 5px;
+    margin-left: 5px;
+  }
+
+  &__follow {
+    background-color: $color-dark-grey;
+    text-align: center;
+    color: $color-white;
+    font-family: $font-stack-title;
+  }
+}
+
+.navbar {
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+
+  &__image {
+    width: 140px;
+  }
+
+  &__icon {
+    font-size: 30px;
+    padding-right: 10px;
+    padding-top: 5px;
+  }
+
+  &__menu {
+    display: none;
+  }
+}
+
+.post {
+  &__title {
+    font-family: $font-stack-title;
+    font-weight: normal;
+    letter-spacing: 4px;
+    margin-left: 5px;
+  }
+
+  &__link {
+    font-family: $font-stack-title;
+    text-decoration: none;
+    color: $color-black;
+    border-bottom: 2px solid $color-yellow;
+    margin-left: 5px;
+  }
+
+  &__button {
+    width: 100%;
+    @include button($color-yellow, $font-stack-title, $color-black);
+    padding: 5px 0px;
+    border: 2px solid $color-black;
+  }
+
+  &__video {
+    display: block;
+    @include center(80%);
+  }
+
+}
+
+.item {
+  &__image {
+    width: 100%;
+  }
+
+  &__subtitle {
+    margin-left: 5px;
+  }
+
+  &__description {
+    padding-left: 10px;
+    border-left: 2px solid $color-light-grey;
+  }
+}
+
+.follow {
+  &__link {
+    color: $color-white;
+    text-decoration: none;
+    border-bottom: 2px solid $color-yellow;
+  }
+}
+
+.subscribe {
+  background-color: $color-light-grey;
+  padding-left: 10px;
+  font-family: $font-stack-title;
+
+  &__input {
+    border: 1px solid $color-dark-grey;
+    height: 30px;
+    width: 150px;
+  }
+
+  &__button {
+    @include button($color-yellow, $font-stack-title, $color-black);
+    padding: 5px 5px;
+    border: none;
+  }
+}

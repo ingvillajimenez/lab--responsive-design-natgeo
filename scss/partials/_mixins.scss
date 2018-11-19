@@ -1,0 +1,11 @@
+
+@mixin center($width) {
+  width: $width;
+  margin: 0 auto;
+}
+
+@mixin button($background, $font, $color){
+  background-color: $background;
+  font-family: $font;
+  color: $color;
+}

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <title>Responsive Design + SCSS - National Geographic</title>
+  </head>
+  <body class="photography">
+
+    <header class="photography__header">
+      <nav class="navbar">
+        <img class="navbar__image" src="./images/logo-ng.png" alt="logo-ng">
+        <i class="navbar__icon fas fa-bars"></i>
+        <ul class="navbar__menu">
+          <li><a class="navbar__link" href="#">ADVENTURE</a></li>
+          <li><a class="navbar__link" href="#">TRAVEL</a></li>
+          <li><a class="navbar__link" href="#">PHOTOGRAPHY</a></li>
+          <li><a class="navbar__link" href="#">HISTORY</a></li>
+        </ul>
+      </nav>
+      <hr><br><br>
+    </header>
+
+    <div class="photography__section">
+      <h1 class="photography__title">PHOTOGRAPHY</h1>
+      <br>
+      <!--First Post-->
+      <div class="post">
+        <h2 class="post__title">TRAVEL PHOTOGRAPHY</h2>
+        <a class="post__link" href="#">SEE MORE</a>
+        <br><br><br>
+        <!--First Item-->
+        <div class="post__item item">
+          <div class="item__double">
+            <img class="item__image" src="./images/img-compact-cameras.png" alt="compact-cameras">
+          </div>
+          <div class="item__normal">
+            <h3 class="item__subtitle">Top 10 Compact Cameras for Travelers</h3>
+            <p class="item__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+        </div>
+        <br><br>
+        <!--Second Item-->
+        <div class="post__item item">
+          <div class="item__double">
+            <img class="item__image" src="./images/img-supermoon.png" alt="supermoon">
+          </div>
+          <div class="item__normal">
+            <h3 class="item__subtitle">How to Photograph a Supermoon</h3>
+            <p class="item__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+        </div>
+        <br><br>
+        <button class="post__button" type="button" name="button">SHOW MORE</button>
+        <br><br><br>
+      </div>
+      <!--Second Post-->
+      <div class="post">
+        <h2 class="post__title">PHOTOS OF THE YEAR</h2>
+        <a class="post__link" href="#">SEE MORE</a>
+        <br><br><br>
+        <img class="post__video" src="./images/img-tree-monkey.png" alt="tree-monkey">
+        <br><br>
+      </div>
+    </div>
+
+    <div class="photography__follow footer">
+      <div class="follow footer__item">
+        <h4>FOLLOW NAT GEO</h4>
+        <h4>PHOTOGRAPHY</h4>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-facebook-f"></i>
+        <i class="fab fa-instagram"></i>
+        <br><br><br>
+      </div>
+
+      <div class="follow footer__item">
+        <h4>COMMUNITY</h4>
+        <p>Join Your Shot, our photography community. Submit to assignments and get feedback from our photo editors.</p>
+        <a class="follow__link" href="#">Join</a>
+        <br><br><br>
+      </div>
+
+      <div class="follow footer__item">
+        <h4>FROM THE ARCHIVES</h4>
+        <p>Look through a curated collection of historical photos from our archives on National Geographic's Found Tumblr</p>
+        <a class="follow__link" href="#">Explore</a>
+        <br><br><br>
+      </div>
+
+      <div class="follow footer__item">
+        <h4>PICTURE STORIES</h4>
+        <p>Check out the latest work from National Geographic photographers and visual storytellers around the world.</p>
+        <a class="follow__link" href="#">See More</a>
+        <br><br><br>
+      </div>
+    </div>
+
+    <div class="photography__subscribe">
+      <div class="subscribe">
+        <br>
+        <div class="subscribe__item">
+          <h4 class="subscribe__subtitle">Subscribe to Newsletters</h4>
+          <input class="subscribe__input" type="text" name="text">
+          <button class="subscribe__button" type="button" name="button">SIGN UP</button>
+        </div>
+
+        <div class="subscribe__item">
+          <h4 class="subscribe__subtitle">Follow Us</h4>
+        </div>
+        <br>
+      </div>
+    </div>
+
+  </body>
+</html>
